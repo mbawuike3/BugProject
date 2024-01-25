@@ -1,0 +1,6 @@
+@OneLog.MinimalApi_HostAddress = http://localhost:5017
+
+GET {{OneLog.MinimalApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
