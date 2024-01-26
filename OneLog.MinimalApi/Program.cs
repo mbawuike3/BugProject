@@ -8,6 +8,7 @@ using OneLog.DataAccess.ApplicationContext;
 using OneLog.Domain.Entities;
 using OneLog.MinimalApi.Extension;
 using OneLog.Shared.Helpers;
+using System.Globalization;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);

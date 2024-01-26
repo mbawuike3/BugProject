@@ -10,7 +10,7 @@ namespace OneLog.Domain.Entities
         public string Name { get; set; } = string.Empty;
         public string Message { get; set; } = string.Empty;
         public DateTime DateCreated { get; set; }
-        public int ApplicationId { get; set; }
+        public long ApplicationId { get; set; }
         [ForeignKey("ApplicationId")]
         public BusinessApplication? Application { get; set; }
     }
